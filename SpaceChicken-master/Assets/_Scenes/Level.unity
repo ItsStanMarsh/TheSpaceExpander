@@ -4841,7 +4841,7 @@ GameObject:
   - component: {fileID: 874168312}
   - component: {fileID: 874168311}
   m_Layer: 5
-  m_Name: Play Again Button (1)
+  m_Name: LevelSelect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4863,8 +4863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.900024, y: 46.9}
-  m_SizeDelta: {x: 371.21, y: 91.83}
+  m_AnchoredPosition: {x: -43.7, y: 36.1}
+  m_SizeDelta: {x: 422.4, y: 53.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874168311
 MonoBehaviour:
@@ -4938,7 +4938,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: bc5e2f3001447a74892e94dc807e9474, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6f757726fe858004f847795cbe7246dc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5503,34 +5503,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 426050, guid: d0423cadeb16c20478cb6eba8d507865, type: 2}
   m_PrefabInternal: {fileID: 1268195464}
---- !u!1 &1304405916
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1513258541}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1304405917}
-  m_Layer: 0
-  m_Name: Missing Prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1304405917
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1513258541}
-  m_GameObject: {fileID: 1304405916}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1347437918
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,7 +5666,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4959587118100008, guid: c796d2771630eae4f8a5f861fa8b5c62, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1788559644981692, guid: c796d2771630eae4f8a5f861fa8b5c62, type: 2}
       propertyPath: m_Name
@@ -5917,7 +5889,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -378158137
+  randomSeed: 437700428
   InitialModule:
     serializedVersion: 3
     enabled: 1

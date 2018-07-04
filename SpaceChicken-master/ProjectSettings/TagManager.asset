@@ -6,6 +6,8 @@ TagManager:
   tags:
   - killbox
   - Portal
+  - Ground
+  - Music
   layers:
   - Default
   - TransparentFX

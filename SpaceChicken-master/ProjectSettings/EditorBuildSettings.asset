@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/LevelSelectur.unity
     guid: 8f3ff57849bb8fe429844d1c152a3f1f
+  - enabled: 1
+    path: Assets/_Scenes/StartScreen.unity
+    guid: db025101762537348a68c7e9ee90fa23
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
